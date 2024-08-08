@@ -1,3 +1,140 @@
 .aboutus {
-  background-color: blue;
+  background: linear-gradient(
+      360deg,
+      rgba(17, 19, 31, 0.8) 15.05%,
+      rgba(17, 19, 31, 0.8) 75.3%,
+      rgba(17, 19, 31, 0.8) 98.27%
+    ),
+    url('path_to_image');
+  margin-top: -35px;
+}
+
+.aboutus-container {
+  border: 1px solid #8e8f99;
+  background: #fbfbfb;
+  border-radius: 24px;
+  width: 335px;
+  height: 675px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  width: 280px;
+}
+
+.text-block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.first-block {
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+}
+
+.second-block {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #040306;
+  opacity: 0.4;
+}
+
+@media screen and (min-width: 768px) {
+  .aboutus-container {
+    width: 704px;
+    height: 675px;
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    margin-bottom: 40px;
+    width: 536px;
+  }
+
+  .text-block {
+    width: 389px;
+    height: 187px;
+  }
+
+  .first-block {
+    font-size: 23px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+  }
+
+  .second-block {
+    font-size: 13px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: #040306;
+    opacity: 0.4;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .aboutus-container {
+    border-radius: 24px;
+    width: 1180px;
+    height: 675px;
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    width: 536px;
+  }
+
+  .text-block {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 354px;
+    height: 210px;
+  }
+
+  .relative {
+    position: relative;
+    left: 733px;
+    bottom: 180px;
+  }
+
+  .first-block {
+    font-size: 23px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+  }
+
+  .second-block {
+    font-size: 13px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: #040306;
+    opacity: 0.4;
+  }
+}
+
+@media screen and (min-width: 1440px) {
 }
