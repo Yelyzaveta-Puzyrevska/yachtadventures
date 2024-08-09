@@ -3,7 +3,7 @@
   /* height: 812px; */
   padding-top: 260px;
   padding-bottom: 305px;
-  margin: 0 auto -35px;
+  margin: 0 auto -59px;
   background-image: url(/img/hero-images/hero-background-mobile.jpg);
   background-color: linear-gradient(
     360deg,
@@ -100,6 +100,7 @@
     max-width: 768px;
     padding-top: 280px;
     padding-bottom: 282px;
+    margin-bottom: -67px;
     background-image: url(/img/hero-images/hero-background-tablet.jpg);
   }
 
@@ -147,6 +148,7 @@
     max-width: 1280px;
     padding-top: 235px;
     padding-bottom: 215px;
+    margin-bottom: -35px;
     background-image: url(/img/hero-images/hero-background-desktop.jpg);
   }
 
