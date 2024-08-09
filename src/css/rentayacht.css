@@ -39,6 +39,9 @@
   line-height: 1.17;
   color: rgba(251, 251, 251, 0.4);
   margin-bottom: 50px;
+  line-height: 1.29;
+  color: #fbfbfb;
+  font-size: 14px;
 }
 
 .rentayacht-input::placeholder,
@@ -96,7 +99,6 @@
 
   .rentayacht-block {
     padding: 0 116px;
-    order: 1;
   }
 
   .rentayacht-title {
@@ -140,29 +142,45 @@
     color: rgba(251, 251, 251, 0.4);
     margin-bottom: 40px;
     resize: none;
+    line-height: 1.29;
+    color: #fbfbfb;
+    font-size: 14px;
   }
 
   .section {
     padding-top: 75px;
     padding-bottom: 75px;
-  }
-
-  .rentayacht-block {
-    order: 1;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .section {
-    padding-top: 75px;
-    padding-bottom: 75px;
+  .rentayacht-container {
+    flex-wrap: wrap;
+    gap: 50px;
   }
 
-  .rentayacht-container {
-    flex-wrap: nowrap;
+  .rentayacht-title {
+    max-width: 472px;
+  }
+
+  .rentayacht-input {
+    height: 54px;
   }
 
   .rentayacht-picture {
     border-radius: 0;
+    flex-shrink: 0;
+    max-width: 658px;
+  }
+
+  .rentayacht-block {
+    padding: 0;
+    max-width: 472px;
+    max-height: 536px;
+  }
+
+  .rentayacht-textarea {
+    margin-bottom: 50px;
+    resize: none;
   }
 }
