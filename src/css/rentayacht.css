@@ -41,7 +41,7 @@
   margin-bottom: 40px;
   line-height: 1.29;
   color: #fbfbfb;
-  font-size: 14px;
+  font-size: 12px;
   resize: none;
 }
 
@@ -126,6 +126,8 @@
     padding-left: 18px;
     max-width: 472px;
     height: 116px;
+    font-size: 14px;
+    margin-bottom: 50px;
   }
 
   .rentayacht-input::placeholder,
@@ -159,9 +161,5 @@
     padding: 0;
     max-width: 472px;
     max-height: 536px;
-  }
-
-  .rentayacht-textarea {
-    margin-bottom: 50px;
   }
 }
