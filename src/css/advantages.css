@@ -109,8 +109,11 @@
   .advantages-container {
     max-width: 1280px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     gap: 32px;
+  }
+  .advantages-list {
+    gap: 44px;
   }
 
   .advantages-photo {
@@ -122,5 +125,6 @@
   }
   .advantages-content-section {
     padding: 90px 50px;
+    max-width: 716px;
   }
 }
