@@ -92,10 +92,10 @@
   .advantages-list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 32px 44px;
+    gap: 44px 32px;
   }
   .advantages-list-item {
-    width: calc((100% - 44px) / 2);
+    width: calc((100% - 32px) / 2);
   }
 
   .advantages-content-section {
