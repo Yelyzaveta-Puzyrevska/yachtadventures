@@ -72,14 +72,23 @@
     padding: 90px 32px;
   }
   .advantages-list-item {
-    width: calc((100% - 44px) / 2);
+    width: calc((100% - 32px) / 2);
   }
 }
 .andvantages-list-title {
   text-align: start;
+  font-size: 32px;
 }
 .advantages-photo {
   max-width: 100%;
+}
+.advantages-list-text {
+  font-size: 13px;
+  line-height: 1.15;
+}
+.advantages-list {
+  gap: 32px;
+  row-gap: 44px;
 }
 
 @media screen and (min-width: 1158px) {
