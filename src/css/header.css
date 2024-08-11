@@ -2,7 +2,7 @@
   max-width: 375px;
 }
 
-.head-container {
+.head-box {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -18,7 +18,12 @@
   background-color: #fbfbfb;
   width: 100%;
   padding: 12px 20px;
-  margin: 0 auto 99px;
+  margin: 0 auto;
+  max-width: 335px;
+}
+
+.head-container {
+  max-width: 375px;
 }
 
 .head-nav-logo {
@@ -48,6 +53,10 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+
+  .head-box {
+    max-width: 704px;
   }
 
   .head-container {
@@ -116,6 +125,10 @@
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
+  }
+
+  .head-box {
+    max-width: 1080px;
   }
 
   .head-container {
