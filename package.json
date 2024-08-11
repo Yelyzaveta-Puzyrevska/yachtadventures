@@ -1,16 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "advantages",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
-=======
   "name": "yachtadventures",
   "private": true,
   "version": "0.0.0",
@@ -30,5 +18,4 @@
     "vite-plugin-full-reload": "^1.0.5",
     "vite-plugin-html-inject": "^1.0.1"
   }
->>>>>>> 9d66193dbf4a324a66b37110b26a489b9447b2e5
 }
