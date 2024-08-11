@@ -1,0 +1,43 @@
+<section class="rentayacht section">
+  <div class="rentayacht-container container">
+    <div class="rentayacht-block">
+      <h2 class="rentayacht-title" id="rent">Rent a yacht now</h2>
+
+      <form>
+        <input class="rentayacht-input" type="text" name="user-name" id="user-name" placeholder="Full name" required />
+
+        <input class="rentayacht-input" type="email" id="email" name="email" placeholder="Email"
+          pattern="([A-Za-z0-9_.-]{1,})@([A-Za-z0-9_.-]{1,}).([A-Za-z]{2,8})" required />
+
+        <input class="rentayacht-input" type="tel" id="phone" name="phone" placeholder="Phone number"
+          pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$" required />
+        <div class="rentayacht-textarea-box">
+          <textarea class="rentayacht-textarea" id="message" name="message" placeholder="Comment" required></textarea>
+        </div>
+
+        <button class="rentayacht-btn" type="submit">Send</button>
+      </form>
+    </div>
+
+    <div class="rentayacht-picture">
+      <picture>
+        <source srcset="
+                    /img/rentayacht-desk-658x536-@1x.png 1x,
+                    /img/rentayacht-desk-658x536-@2x.png 2x
+                  " media="(min-width:1280px)" />
+        <source srcset="
+                    /img/rentayacht-tablet-704x534-@1x.jpg 1x,
+                    /img/rentayacht-tablet-704x534-@2x.jpg 2x
+                  " media="(min-width:768px)" />
+        <source srcset="
+                    /img/rentayacht-mob-335x412-@1x.jpg 1x,
+                    /img/rentayacht-mob-335x412-@2x.jpg 2x
+                  " media="(max-width:767px)" />
+        <img srcset="
+                    /img/rentayacht-tablet-704x534-@1x.jpg 1x,
+                    /img/rentayacht-tablet-704x534-@2x.jpg 2x
+                  " src="/img/rentayacht-tablet-704x534-@1x.jpg" alt="Yacht for rent" class="rentayacht-img" />
+      </picture>
+    </div>
+  </div>
+</section>
