@@ -9,7 +9,7 @@
   justify-content: space-between;
 
   position: absolute;
-  top: 17px;
+  top: 20px;
   left: 50%;
   transform: translate(-50%);
 
@@ -17,7 +17,7 @@
   border-radius: 8px;
   background-color: #fbfbfb;
   width: 100%;
-  padding: 12px 20px;
+  padding: 0 20px;
   margin: 0 auto;
   max-width: 335px;
 }
@@ -32,6 +32,7 @@
   letter-spacing: -0.03em;
   color: #1b414b;
   cursor: pointer;
+  padding: 13px 0;
 }
 
 .head-menu-mob {
@@ -91,6 +92,8 @@
 
     cursor: pointer;
     transition: all 0.3s ease;
+
+    width: 91px;
   }
 
   .head-nav-item:hover,
