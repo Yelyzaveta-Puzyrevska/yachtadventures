@@ -108,3 +108,9 @@
   margin: 0 auto;
   height: auto;
 }
+.advantages-list-item {
+  width: calc((100% - 44px) / 2);
+}
+.advant-img {
+  flex-shrink: 0;
+}
