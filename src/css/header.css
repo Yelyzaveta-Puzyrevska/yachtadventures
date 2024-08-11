@@ -60,10 +60,7 @@
     max-width: 704px;
   }
 
-  .head-container {
-    padding: 4px 28px;
-     
-  }
+ 
 
   .head-nav-logo {
     font-size: 20px;
@@ -134,7 +131,5 @@
     max-width: 1080px;
   }
 
-  .head-container {
-    padding: 4px 30px;
-  }
+ 
 }
