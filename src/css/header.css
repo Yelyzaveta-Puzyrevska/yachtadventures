@@ -42,7 +42,13 @@
   box-sizing: border-box;
 }
 
+.head-btn-icon {
+  background-color: transparent;
+  border: none;
+}
+
 @media (max-width: 767px) {
+
   .head-nav-list,
   .head-social-list {
     display: none;
@@ -60,7 +66,9 @@
     max-width: 704px;
   }
 
- 
+  .head-btn-icon {
+    display: none;
+  }
 
   .head-nav-logo {
     font-size: 20px;
@@ -85,17 +93,25 @@
     text-transform: uppercase;
     text-align: center;
     color: #fbfbfb;
-    padding: 15px 24px 15px 25px;
+
 
     cursor: pointer;
     transition: all 0.3s ease;
 
     width: 91px;
+
   }
 
   .head-nav-item:hover,
   .head-nav-item:focus {
     background-color: #1b414b;
+  }
+
+  .head-nav-link {
+    padding: 15px 24px 15px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .head-social-list {
@@ -131,5 +147,5 @@
     max-width: 1080px;
   }
 
- 
+
 }
