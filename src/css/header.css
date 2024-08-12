@@ -42,7 +42,13 @@
   box-sizing: border-box;
 }
 
+.head-btn-icon {
+  background-color: transparent;
+  border: none;
+}
+
 @media (max-width: 767px) {
+
   .head-nav-list,
   .head-social-list {
     display: none;
@@ -60,7 +66,7 @@
     max-width: 704px;
   }
 
- 
+
 
   .head-nav-logo {
     font-size: 20px;
@@ -131,5 +137,5 @@
     max-width: 1080px;
   }
 
- 
+
 }
