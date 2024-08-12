@@ -1,89 +1,38 @@
-/*Основні*/
-
-body {
-  font-family: 'Inter', sans-serif;
-}
-
-ul,
-ol {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-button {
-  cursor: pointer;
-}
-
-/*Основні дісплеї*/
-
-.container {
-  max-width: 375px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media screen and (min-width: 1158px) {
-  .container {
-    max-width: 1158px;
-    padding: 0 15px;
-  }
-}
 /*Footer*/
 .page-footer {
-  background-color: #0e1823;
-  padding: 80px 0;
+  padding-top: 40px;
 }
 
 .footer-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
+  padding: 0 10px;
+}
+
+.footer-box {
+  padding: 40px 30px 20px;
   background-color: #1b414b;
-  border-radius: 16px;
+  border-radius: 24px 24px 0 0;
+}
+
+.footer-logo-nav-box {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 37px;
+  justify-content: center;
+  row-gap: 80px;
+  margin-bottom: 40px;
 }
 
 .footer-logo {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 9px;
+  font-size: 14px;
   line-height: 1.3;
   text-align: center;
   color: #fbfbfb;
-  margin-bottom: 20px;
-  text-align: center;
-  padding-right: 39px;
 }
 
 .footer-nav {
-  margin-bottom: 40px;
   position: relative;
 }
 
@@ -110,8 +59,8 @@ button {
   background-color: rgba(251, 251, 251, 0.3);
   text-decoration: none;
   border-radius: 8px;
-  width: 100%;
   text-align: center;
+  width: 66px;
 }
 
 .footer-btn-about:hover,
@@ -127,7 +76,6 @@ button {
   gap: 8px;
   padding: 0;
   list-style: none;
-  margin-top: 80px;
 }
 
 .footer-icon {
@@ -144,8 +92,8 @@ button {
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
-  text-align: center;
-  padding: 0 38px;
+  max-width: 276px;
+  margin: 0 auto;
 }
 
 .text-copyright {
@@ -169,33 +117,34 @@ button {
   letter-spacing: 0.03em;
   text-align: center;
   color: rgba(251, 251, 251, 0.4);
-  margin: 0;
 }
 
 @media screen and (min-width: 768px) {
   .page-footer {
-    padding: 150px 0;
+    padding-top: 75px;
   }
 
   .footer-container {
-    padding: 16px;
-    width: 736px;
-    height: 418px;
-    border-radius: 16px;
-    align-items: normal;
+    padding: 0 16px;
+  }
+
+  .footer-box {
+    padding: 50px 48px 20px;
+  }
+
+  .footer-logo-nav-box {
+    justify-content: space-between;
+    margin-bottom: 96px;
   }
 
   .footer-logo {
-    margin-bottom: 16px;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: -0.03em;
     color: #fbfbfb;
-    padding-right: 110px;
   }
 
   .footer-nav {
-    margin: 50px 48px 96px 48px;
   }
 
   .footer-nav-list {
@@ -218,13 +167,6 @@ button {
     width: 91px;
     height: 40px;
   }
-  .footer-social {
-    position: absolute;
-    top: 0;
-    right: 0;
-    justify-content: flex-end;
-    display: flex;
-  }
 
   .footer-social-list {
     margin-top: 0;
@@ -232,7 +174,7 @@ button {
 
   .footer-text {
     font-size: 32px;
-    padding: 0 48px;
+    max-width: 610px;
   }
 
   .text-copyright {
@@ -254,29 +196,15 @@ button {
 
 @media screen and (min-width: 1158px) {
   .footer-container {
-    border-radius: 24px 24px 0 0;
     width: 1230px;
-    height: 418px;
   }
 
-  .footer-logo {
-    padding-right: 315px;
-  }
-
-  .footer-nav {
-    margin: 50px 49px 96px 49px;
-  }
-
-  .footer-social {
-    position: absolute;
-    top: 0;
-    right: 0;
-    justify-content: flex-end;
-    display: flex;
+  .footer-box {
+    padding: 50px 75px 20px;
   }
 
   .footer-text {
     font-size: 32px;
-    padding: 0 268px;
+    max-width: 686px;
   }
 }
