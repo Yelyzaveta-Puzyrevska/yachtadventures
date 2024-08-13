@@ -13,7 +13,7 @@
   max-width: 375px;
   margin: 0 auto;
   padding-bottom: 40px;
-  padding-top: 40px;
+  padding-top: 180px;
 }
 
 .yahts-title {
@@ -142,7 +142,7 @@
 
   .yahts-container {
     padding-bottom: 75px;
-    padding-top: 75px;
+    padding-top: 426px;
   }
 
   .yachts-list {
@@ -183,6 +183,10 @@
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
+  }
+
+  .yahts-container {
+    padding-top: 305px;
   }
 
   .yahts-title {
