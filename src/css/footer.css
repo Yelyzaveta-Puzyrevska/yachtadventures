@@ -23,6 +23,12 @@
   margin-bottom: 40px;
 }
 
+@media (max-width: 374px) {
+  .footer-logo-nav-box {
+    row-gap: 37px;
+  }
+}
+
 .footer-logo {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -144,8 +150,7 @@
     color: #fbfbfb;
   }
 
-  .footer-nav {
-  }
+  .footer-nav {}
 
   .footer-nav-list {
     display: flex;
