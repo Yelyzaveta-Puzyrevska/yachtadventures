@@ -1,0 +1,215 @@
+/*Footer*/
+.page-footer {
+  padding-top: 40px;
+}
+
+.footer-container {
+  padding: 0 10px;
+}
+
+.footer-box {
+  padding: 40px 30px 20px;
+  background-color: #1b414b;
+  border-radius: 24px 24px 0 0;
+}
+
+.footer-logo-nav-box {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 37px;
+  justify-content: center;
+  row-gap: 80px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 374px) {
+  .footer-logo-nav-box {
+    row-gap: 37px;
+  }
+}
+
+.footer-logo {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.footer-nav {
+  position: relative;
+}
+
+.footer-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-btn-about,
+.footer-btn-yachts,
+.footer-btn-reviews {
+  display: inline-block;
+  padding: 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+  background-color: rgba(251, 251, 251, 0.3);
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: center;
+  width: 66px;
+}
+
+.footer-btn-about:hover,
+.footer-btn-yachts:hover,
+.footer-btn-reviews:hover {
+  background-color: #fbfbfb;
+  color: #1b414b;
+}
+
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-icon {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+.footer-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  max-width: 276px;
+  margin: 0 auto;
+}
+
+.text-copyright {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.footer-copyright {
+  margin-top: 82px;
+  text-align: center;
+}
+
+.text-copyright-yacht,
+.text-copyright-privacy {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: rgba(251, 251, 251, 0.4);
+}
+
+@media screen and (min-width: 768px) {
+  .page-footer {
+    padding-top: 75px;
+  }
+
+  .footer-container {
+    padding: 0 16px;
+  }
+
+  .footer-box {
+    padding: 50px 48px 20px;
+  }
+
+  .footer-logo-nav-box {
+    justify-content: space-between;
+    margin-bottom: 96px;
+  }
+
+  .footer-logo {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    color: #fbfbfb;
+  }
+
+  .footer-nav {}
+
+  .footer-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-btn-about,
+  .footer-btn-yachts,
+  .footer-btn-reviews {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: rgba(251, 251, 251, 0.3);
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+    width: 91px;
+    height: 40px;
+  }
+
+  .footer-social-list {
+    margin-top: 0;
+  }
+
+  .footer-text {
+    font-size: 32px;
+    max-width: 610px;
+  }
+
+  .text-copyright {
+    gap: 32px;
+  }
+
+  .footer-copyright {
+    margin-top: 99px;
+  }
+
+  .text-copyright-yacht,
+  .text-copyright-privacy {
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .footer-container {
+    width: 1230px;
+  }
+
+  .footer-box {
+    padding: 50px 75px 20px;
+  }
+
+  .footer-text {
+    font-size: 32px;
+    max-width: 686px;
+  }
+}

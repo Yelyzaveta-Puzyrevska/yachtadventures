@@ -1,3 +1,13 @@
+.rentayacht-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 80px;
+}
+
+.rentayacht-block {
+  order: 1;
+}
+
 .rentayacht-title {
   font-weight: 500;
   font-size: 28px;
@@ -5,10 +15,6 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
   margin-bottom: 40px;
-}
-
-.rentayacht-block {
-  order: 1;
 }
 
 .rentayacht-input {
@@ -59,18 +65,6 @@
   border: 1px solid rgba(251, 251, 251, 0.5);
 }
 
-.rentayacht-picture {
-  display: block;
-  overflow: hidden;
-  border-radius: 24px;
-}
-
-.rentayacht-container {
-  display: flex;
-  flex-wrap: wrap-reverse;
-  gap: 80px;
-}
-
 .rentayacht-btn {
   border-radius: 15px;
   padding: 14px 44px;
@@ -89,6 +83,11 @@
   background: #fbfbfb;
   color: #1b414b;
   outline: transparent;
+}
+
+.rentayacht-picture {
+  overflow: hidden;
+  border-radius: 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -153,7 +152,6 @@
 
   .rentayacht-picture {
     border-radius: 0;
-    flex-shrink: 0;
     max-width: 658px;
   }
 

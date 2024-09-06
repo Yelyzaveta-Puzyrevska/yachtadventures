@@ -1,8 +1,4 @@
 /* ---------------------------MOBIL---------------------------- */
-.container {
-  max-width: 375px;
-}
-
 .yahts-section {}
 
 .yahts-container {
@@ -136,9 +132,6 @@
 /* TABLET */
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
 
   .yahts-container {
     padding-bottom: 75px;
@@ -181,9 +174,7 @@
 /* DESCTOP */
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
+
 
   .yahts-container {
     padding-top: 305px;
