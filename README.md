@@ -1,3 +1,5 @@
+# Bootcamp 73 HTML + CSS Team project
+
 Yacht adventures, командний проєкт, project-18.
 
 1. Дмитро Троян, нік на GitHub: Dmytro-Tr, Team lead – перевірка секцій,
